@@ -1,5 +1,5 @@
 %define oname ROX-Session
-%define version 0.29
+%define version 0.30
 %define name rox-session
 %define appdir %_prefix/lib/apps
 Name:		%name
