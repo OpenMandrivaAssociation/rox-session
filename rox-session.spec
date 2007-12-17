@@ -18,7 +18,6 @@ Patch1: rox-session-0.26-suppress-error.patch
 Requires:	rox-lib
 Requires: 	python
 Requires:	dbus-python
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 
 %description
