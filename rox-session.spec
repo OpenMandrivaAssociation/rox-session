@@ -4,13 +4,13 @@
 %define appdir %_prefix/lib/apps
 Name:		%name
 Version:	%version
-Release: %mkrel 4
+Release: %mkrel 5
 Summary:	Session manager for the ROX graphical desktop
 Group:		Graphical desktop/Other
 License:	GPL
 URL:		http://rox.sourceforge.net/rox_session.php3
 Source:		http://prdownloads.sourceforge.net/rox/%{name}-%{version}.tar.bz2
-Source1:	rox-session.bz2
+Source1:	rox-session
 Source2:	%name-48.png
 Source3:	%name-32.png
 Source4:	%name-16.png
@@ -59,7 +59,7 @@ EOF
 
 #session script
 mkdir -p %buildroot%_bindir
-bzcat %SOURCE1 > %buildroot%_bindir/%name
+cp %SOURCE1 %buildroot%_bindir/%name
 #gw path to the ROX-Session directory
 perl -pi -e "s^%%s^%appdir/%oname^" %buildroot%_bindir/%name
 
