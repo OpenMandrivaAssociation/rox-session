@@ -1,0 +1,11 @@
+--- ROX-Session-0.26/ROX-Session/RunROX~	2005-08-28 11:20:36.000000000 +0200
++++ ROX-Session-0.26/ROX-Session/RunROX	2005-10-13 11:07:42.000000000 +0200
+@@ -37,7 +37,7 @@
+ # ROX-Session to offer to restart it... (-S turns on -n automatically)
+ 
+ # Try to run it though Zero Install...
+-if [ -x "`which 0launch`" ]; then
++if [ -x "`which 0launch 2>/dev/null`" ]; then
+     exec 0launch http://rox.sourceforge.net/2005/interfaces/ROX-Filer -S
+ fi
+ 
