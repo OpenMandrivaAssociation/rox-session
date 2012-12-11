@@ -1,6 +1,2 @@
 sources:
-  "rox-session:"	ebfb3c7a79c58cf0b1ab57e796a434f58b8e3679
-  "rox-session-0.30.tar.bz2:"	df506e6c3be111e015059bc70f983a9f0cea7d51
-  "rox-session-16.png:"	b12992dc4bca2b55e6096f4f87e470f600eb0f88
-  "rox-session-32.png:"	ef611f676c63cfbde930aa98a2c1b7ce7e34d23b
-  "rox-session-48.png:"	3e898a3dd7bdd25472e764727df319254a814281
+  "rox-session-0.30.tar.bz2": df506e6c3be111e015059bc70f983a9f0cea7d51
