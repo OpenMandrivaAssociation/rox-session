@@ -76,8 +76,6 @@ done
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post
-%make_session
 
 %postun
 %make_session
