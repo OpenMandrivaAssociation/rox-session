@@ -77,8 +77,6 @@ done
 rm -rf $RPM_BUILD_ROOT
 
 
-%postun
-%make_session
 
 %files -f %name.lang
 %defattr (-,root,root)
