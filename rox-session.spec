@@ -3,7 +3,7 @@
 %define appdir %_prefix/lib/apps
 Name:		%name
 Version:	0.30
-Release:    6
+Release:    7
 Summary:	Session manager for the ROX graphical desktop
 Group:		Graphical desktop/Other
 License:	GPL
