@@ -7,7 +7,7 @@ Release:    7
 Summary:	Session manager for the ROX graphical desktop
 Group:		Graphical desktop/Other
 License:	GPL
-URL:		http://rox.sourceforge.net/rox_session.php3
+URL:		https://rox.sourceforge.net/rox_session.php3
 Source:		http://prdownloads.sourceforge.net/rox/%{name}-%{version}.tar.bz2
 Source1:	rox-session
 Source2:	%name-48.png
